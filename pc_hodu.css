@@ -35,7 +35,7 @@ header {
     height: 900px;
 
     background-color: #F2E9D8;
-    background-image: url(../images/고양이\ 1_top.png);
+    background-image: url(고양이\ 1_top.png);
     background-repeat: no-repeat;
     background-position: left 1185px bottom 0px;
     background-size: 415px;
@@ -344,7 +344,7 @@ main {
     height: 340px;
     margin-top: 181px;
 
-    background-image: url(../images/main_bottom.png);
+    background-image: url(main_bottom.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -448,7 +448,7 @@ main {
 }
 
 #move-top :hover {
-    content: url(../images/scroll-top-btn_hover.png);
+    content: url(scroll-top-btn_hover.png);
 }
 
 /* =================== footer ================ */
@@ -510,7 +510,7 @@ footer img {
     width: 600px;
     height: 400px;
 
-    background-image: url(../images/modal_background.png);
+    background-image: url(modal_background.png);
     border-radius: 16px;
 }
 
