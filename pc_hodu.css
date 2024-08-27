@@ -71,7 +71,7 @@ nav img {
     justify-content: space-between;
 
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 20px;
 }
 
@@ -86,7 +86,7 @@ nav img {
     background-color: #D97652;
 
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 20px;
     color: #FFF;
 }
@@ -129,7 +129,7 @@ nav img {
     background-color: #D97652;
 
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 19.09px;
     color: #FFF;
 }
@@ -175,7 +175,7 @@ main {
     margin-left: 110px;
 
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 400;
     line-height: 20px;
 }
 
@@ -206,7 +206,7 @@ main {
     margin-top: 40px;
 
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 400;
     line-height: 20px;
     text-align: center;
 }
