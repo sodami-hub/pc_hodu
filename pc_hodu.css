@@ -32,13 +32,9 @@ header {
     position: sticky;
     top: 0px;
     width : 1920px;
-    height: 900px;
+    height: 102px;
 
     background-color: #F2E9D8;
-    background-image: url(고양이\ 1_top.png);
-    background-repeat: no-repeat;
-    background-position: left 1185px bottom 0px;
-    background-size: 415px;
 
     z-index: 100;
 }
@@ -75,6 +71,10 @@ nav img {
     line-height: 20px;
 }
 
+.top-links span {
+    cursor :pointer;
+}
+
 .download-link01 {
     width: 140px;
     height: 50px;
@@ -86,23 +86,44 @@ nav img {
     background-color: #D97652;
 
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
     color: #FFF;
+
+    cursor :pointer;
+}
+/* =============================== main =========================== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* =========== main.section01 ============ */
 .top {
-    margin-left : 320px;
-    margin-top : 200px;
+    width: 1920px;
+    height: 798px;
+    /* margin-left : 320px;
+    margin-top : 200px; */
     
     display: flex;
     flex-direction: column;
     gap: 40px;    
+
+    background-color: #F2E9D8;
+    background-image: url(고양이\ 1_top.png);
+    background-repeat: no-repeat;
+    background-position: left 1185px bottom 0px;
+    background-size: 415px;
 }
 
 .top-p01 {
     width: 695px;
     height: 120px;
+
+    margin-left : 320px;
+    margin-top: 200px;
 
     font-size: 48px;
     font-weight: 700;
@@ -113,14 +134,18 @@ nav img {
     width: 420px;
     height: 86px;
 
+    margin-left : 320px;
+
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 .download-link02 {
     width: 140px;
     height: 50px;
+
+    margin-left : 320px;
 
     box-sizing: border-box;
     border-radius: 40px;
@@ -129,18 +154,15 @@ nav img {
     background-color: #D97652;
 
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 19.09px;
     color: #FFF;
+
+    cursor :pointer;
 }
-/* =============================== main =========================== */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/* =========== main.section01 ============ */
-.sec01 {
+
+/* =========== main.section02 ============ */
+.sec02 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +170,7 @@ main {
     margin-top: 80px;
 }
 
-.sec01 img {
+.sec02 img {
     width : 660px;
     height: 390px;
 
@@ -156,7 +178,7 @@ main {
     box-shadow: 10px 10px 30px 0px #00000040;
 }
 
-.sec01-p01 {
+.sec02-p01 {
     width: 510px;
     height: 135px;
 
@@ -167,7 +189,7 @@ main {
     line-height: 45px;
 }
 
-.sec01-p02 {
+.sec02-p02 {
     width: 510px;
     height: 40px;
 
@@ -179,14 +201,14 @@ main {
     line-height: 20px;
 }
 
-.sec02 {
+.sec02-02 {
     display: flex;
     flex-direction: column;
 
     align-items: center;
 }
 
-.sec02-p01 {
+.sec02-p03 {
     width: 875px;
     height: 60px;
     
@@ -199,26 +221,26 @@ main {
     text-align: center;
 }
 
-.sec02-p02 {
+.sec02-p04 {
     width: 710px;
     height: 42px;
     
     margin-top: 40px;
 
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400r;
     line-height: 20px;
     text-align: center;
 }
 
-.sec02-p02 span {
+.sec02-p04 span {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     color:#D97652;
 }
 
-/* =========== main.section02 ============ */
+/* =========== main.section03 ============ */
 
 .img-groups {
     display: flex;
@@ -277,6 +299,8 @@ main {
     font-weight: 700;
     line-height: 20px;
     color: #FFF;
+
+    cursor :pointer;
 }
 
 /* =========== .line ============ */
@@ -290,13 +314,13 @@ main {
     background: #C4C4C4;
 }
 
-/* =========== main.section03 ============ */
+/* =========== main.section04 ============ */
 
-.sec03 {
+.sec04 {
     width : 1278px;
 }
 
-.sec03-p01 {
+.sec04-p01 {
     width: 263px;
     height: 45px;
 
@@ -308,7 +332,7 @@ main {
     text-align: left;
 }
 
-.sec03-p02 {
+.sec04-p02 {
     width: 395px;
     height: 20px;
 
@@ -333,9 +357,9 @@ main {
 }
 
 
-/* =========== main. bottom ============ */
+/* =========== main. section05 ============ */
 
-.main-bottom {
+.sec05 {
     display: flex;
     justify-content: right;
     align-items:end;
@@ -352,7 +376,6 @@ main {
 
 
 .subscribe {
-
     width: 1280px;
     height: 200px;
 
@@ -434,6 +457,8 @@ main {
     font-size: 16px;
     font-weight: 700;
     color: #FFF;
+
+    cursor :pointer;
 }
 
 /* =================== hashlink ==================== */
@@ -473,10 +498,12 @@ footer img {
 
     display: flex;
     justify-content: space-between;
+
 }
 .footer-link-group img {
     width: 42px;
     height: 42px;
+    cursor :pointer;
 }
 
 
