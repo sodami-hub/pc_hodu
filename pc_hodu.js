@@ -48,12 +48,14 @@ function check(e) {
         });
     } else {
         alert("이메일을 정확히 입력하세요.");
+        document.getElementById('email').value = null;
     }
 }
 
 // 이메일 전송 및 모달 창 닫기
 function sendData() {
     alert('당신의 이메일 주소('+emailvalue+')를 서버로 전송합니다.');
+    document.getElementById('email').value = null;
     toggleModal("none");
 }
 
